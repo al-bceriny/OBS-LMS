@@ -1,4 +1,4 @@
-📘 OBS-LMS — Online Learning & Management System
+#📘 OBS-LMS — Online Learning & Management System
 
 A complete, full-featured Learning Management System built with Laravel, designed for universities, schools, and educational institutions.
 It includes dashboards for Admin, Teachers, and Students, with powerful features such as courses, enrollment, attendance, assignments, exams, grades, and notifications.
@@ -40,34 +40,34 @@ Secure login and registration
 🧩 System Structure
 
 Models:
-Department, Teacher, Student, Course, CourseOffering, Assignment, Submission, Exam, ExamResult, AttendanceRecord, AttendanceSession, Material, Notification
+- Department, Teacher, Student, Course, CourseOffering, Assignment, Submission, Exam, ExamResult, AttendanceRecord, AttendanceSession, Material, Notification
 Controllers:
-Separated by roles → Admin / Teacher / Student
+- Separated by roles → Admin / Teacher / Student
 Middleware:
-Role-based authorization
+- Role-based authorization
 Views:
-Blade templates for all dashboards
+- Blade templates for all dashboards
 Migrations:
-Full database schema (20+ migrations)
+- Full database schema (20+ migrations)
 
 🛠️ Technologies Used:
 - Laravel 11 | Blade | MySQL | Laravel Breeze | GitHub.
 
 📦 Installation & Setup:
-git clone https://github.com/al-bceriny/OBS-LMS.git
-cd OBS-LMS
-composer install
-npm install
-cp .env.example .env
-DB_DATABASE=obs_system
-DB_USERNAME=root
-DB_PASSWORD=
-php artisan key:generate
-php artisan migrate --seed
-Email: mr@adnan.com
-Password: moHaks
-npm run build
-npm run dev
-php artisan serve
-Open your browser:
+- git clone https://github.com/al-bceriny/OBS-LMS.git
+- cd OBS-LMS
+- composer install
+- npm install
+- cp .env.example .env
+- DB_DATABASE=obs_system
+- DB_USERNAME=root
+- DB_PASSWORD=
+- php artisan key:generate
+- php artisan migrate --seed
+- Email: mr@adnan.com
+- Password: moHaks
+- npm run build
+- npm run dev
+- php artisan serve
+- Open your browser:
 👉 http://127.0.0.1:8000
